@@ -1,4 +1,5 @@
 ---
+layout: post
 title:  Logistic Regression - Predicting the Weather with Precision
 date: 2024-04-17 3:52
 categories: [Machine Learning, Machine Learning Models, AI]
