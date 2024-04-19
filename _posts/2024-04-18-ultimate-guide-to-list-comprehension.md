@@ -8,6 +8,11 @@ tags: [python, tutorial]
 ### Introduction
 This blog post serves as a comprehensive guide to mastering comprehension in Python. Comprehensions are a concise and powerful feature that allows you to create lists, dictionaries and sets effortlessly. Whether you're a beginner or an experienced Python developer, this guide will help you write elegant and efficient code.
 
+
+![Comprehensions in Python](assets/Posts/Ultimate Guide.png)
+_Comprehensions in Python_
+
+
 <div align="center">
     <h1>List Comprehension</h1>
 </div>
