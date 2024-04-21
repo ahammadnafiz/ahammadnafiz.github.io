@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Mastering Iteration in Python - A Comprehensive Guide
-date: 2024-04-18 12:56
+date: 2024-04-21 10:53
 categories: [Python Tutorial]
 tags: [python, tutorial]
 ---
