@@ -7,7 +7,7 @@ tags: [python, tutorial]
 ---
 
 
-Iterators are a powerful concept in Python that allow you to traverse through a sequence of data efficiently. In this tutorial, we'll dive deep into iterators, understand how they work, and learn how to create and use them effectively.
+Iterators are a powerful concept in Python that allow you to traverse through a sequence of data efficiently. In this tutorial, we'll dive deep into iterators, understand how they work, and learn how to create and use them effectively. So let's dive in.
 
 GitHub Repo : **[Iteration in Python](https://github.com/ahammadnafiz/Python-UIU/blob/main/Generators_in_Python/iterator.py)**
 
