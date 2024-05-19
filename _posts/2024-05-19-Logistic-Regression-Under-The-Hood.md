@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  লজিস্টিক রিগ্রেশন - Under The Hood
+title:  Logistic Regression - Under The Hood
 date: 2024-05-19 9:30
 categories: [Machine Learning Tutorial]
 tags: [Machine Learning, tutorial]
