@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  NumPy - A Beginner's Guide to Numerical Computing in Python
-date: 2024-07-12 12:56
+date: 2024-07-12 10:38
 categories: [Python Tutorial]
 tags: [python, tutorial]
 ---
