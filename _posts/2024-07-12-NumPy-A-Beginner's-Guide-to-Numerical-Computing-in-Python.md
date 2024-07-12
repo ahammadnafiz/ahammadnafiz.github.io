@@ -118,7 +118,7 @@ print("Elements greater than 5:\n", arr[mask])
 ```
 ![Slicing](/assets/Posts/np_indexing.png)
 _1d Slicing_
-![Slicing](/assets\Posts\np_matrix_indexing.png)
+![Slicing](/assets/Posts/np_matrix_indexing.png)
 _Matrix Slicing_
 
 **Why use array indexing and slicing?**
