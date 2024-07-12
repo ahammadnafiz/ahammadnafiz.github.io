@@ -341,4 +341,6 @@ Remember, practice is key to mastering NumPy. Try to incorporate these concepts 
 
 Happy coding with NumPy!
 
+Best of luck
+
 Ahammad Nafiz
