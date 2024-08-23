@@ -19,7 +19,11 @@ title: Ahammad Nafiz # the main title
 tagline: Python | Machine Learning  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Ahammad Nafiz Blog, Github, Machine Learning, Python.
+  Ahammad Nafiz: Expert in Python and Machine Learning. Discover insightful articles on data science, 
+  AI, deep learning, and software engineering. Practical tutorials, code examples, and industry insights. 
+  Stay updated with the latest tech trends and boost your programming skills.
+
+# ... rest of the file remains unchanged ...
 
 # Fill in the protocol & hostname for your site.
 # e.g. 'https://username.github.io', note that it does not end with a '/'.
