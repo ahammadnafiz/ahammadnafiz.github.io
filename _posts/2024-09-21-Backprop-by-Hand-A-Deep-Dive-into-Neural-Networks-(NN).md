@@ -1333,3 +1333,5 @@ $$
 ## Conclusion
 
 Backpropagation, while mathematically complex, follows an intuitive process of learning from mistakes. By understanding its mechanics, we can better architect and train neural networks for a wide range of applications. As we continue to push the boundaries of AI, a solid grasp of backpropagation remains crucial for any aspiring machine learning practitioner.
+
+Writen by Ahammad Nafiz
