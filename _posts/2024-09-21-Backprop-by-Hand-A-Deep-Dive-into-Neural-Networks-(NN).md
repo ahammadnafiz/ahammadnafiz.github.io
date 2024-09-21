@@ -59,6 +59,24 @@ Let’s define the notations for clarity:
 - **α**: Learning rate.
 
 ---
+Summary of Shapes
+
+Here $n_l$ is the current layer and $n_{l-1}$ is the previous layer.
+
+| Layer | Variable | Shape            |
+
+| ----- | -------- | ---------------- |
+| 0     | $X$      | $(n_x, m)$       |
+| l     | $W[l]$   | $(n_l, n_{l-1})$ |
+| l     | $b[l]$   | $(n_l, 1)$       |
+| l     | $Z[l]$   | $(n_l, m)$       |
+| l     | $A[l]$   | $(n_l, m)$       |
+| L     | $dZ[L]$  | $(n_y, m)$       |
+| l     | $dZ[l]$  | $(n_l, m)$       |
+| l     | $dW[l]$  | $(n_l, n_{l-1})$ |
+| l     | $db[l]$  | $(n_l, 1)$       |
+| L     | $dW[L]$  | $(n_y, n_N)$     |
+| L     | $db[L]$  | $(n_y, 1)$       |
 
 ### **2. Forward Propagation (General Template)**
 
