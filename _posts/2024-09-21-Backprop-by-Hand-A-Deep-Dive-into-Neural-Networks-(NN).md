@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Backprop by Hand - A Deep Dive into Neural Networks (NN)
-date: 2024-09-21 10:38
+date: 2024-09-21 7:20
 categories: [Neural Network]
 math: true
 mermaid: true
