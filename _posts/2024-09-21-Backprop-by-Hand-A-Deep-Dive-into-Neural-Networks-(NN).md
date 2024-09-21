@@ -14,10 +14,11 @@ tags: [python, tutorial, neural network, backpropagation, deep learning, machine
   mermaid.initialize({ startOnLoad: true });
 </script>
 
-
 ## Introduction
 
 Artificial Neural Networks (ANNs) have revolutionized the field of machine learning, enabling breakthroughs in image recognition, natural language processing, and more. At the heart of training these networks lies a powerful algorithm: backpropagation. In this blog post, we'll demystify backpropagation, exploring its intuition, mechanics, and practical implementation.
+
+You can find the code for this blog post [Neural Network From Scratch](https://github.com/ahammadnafiz/Machine-Learning/blob/main/Neural%20Netwoks/FizNet.py).
 
 ## 1. The Intuition Behind Backpropagation
 
@@ -36,7 +37,6 @@ We'll explore how information flows through the network, from input to output, u
 Here, we'll dive into how the network propagates errors backward and calculates gradients to update its parameters.
 
 ## 3. Step-by-Step Backpropagation Example
-
 
 #### **1. Definitions and Notations**
 
