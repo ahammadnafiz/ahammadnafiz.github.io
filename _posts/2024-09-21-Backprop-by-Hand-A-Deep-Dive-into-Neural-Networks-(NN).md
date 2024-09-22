@@ -828,7 +828,6 @@ $$
 
 ### **3. Backward Pass Calculation**
 
-
 ```mermaid
 graph BT
     subgraph "Input Layer"
@@ -863,33 +862,39 @@ graph BT
     EQ1["dZ[4] = A[4] - Y"]
     EQ2["dW[4] = 1/m * dZ[4] * A[3]^T"]
     EQ3["db[4] = 1/m * sum(dZ[4])"]
-    EQ4["dZ[3] = W[4]^T * dZ[4] · g'_ReLU(Z[3])"]
-    EQ5["dW[3] = 1/m * dZ[3] * A[2]^T"]
-    EQ6["db[3] = 1/m * sum(dZ[3])"]
-    EQ7["dZ[2] = W[3]^T * dZ[3] · g'_ReLU(Z[2])"]
-    EQ8["dW[2] = 1/m * dZ[2] * A[1]^T"]
-    EQ9["db[2] = 1/m * sum(dZ[2])"]
-    EQ10["dZ[1] = W[2]^T * dZ[2] · g'_ReLU(Z[1])"]
-    EQ11["dW[1] = 1/m * dZ[1] * X^T"]
-    EQ12["db[1] = 1/m * sum(dZ[1])"]
+    EQ4["dA[3] = W[4]^T · dZ[4]"]
+    EQ5["dZ[3] = dA[3] · g'_ReLU(Z[3])"]
+    EQ6["dW[3] = 1/m * dZ[3] * A[2]^T"]
+    EQ7["db[3] = 1/m * sum(dZ[3])"]
+    EQ8["dA[2] = W[3]^T · dZ[3]"]
+    EQ9["dZ[2] = dA[2] · g'_ReLU(Z[2])"]
+    EQ10["dW[2] = 1/m * dZ[2] * A[1]^T"]
+    EQ11["db[2] = 1/m * sum(dZ[2])"]
+    EQ12["dA[1] = W[2]^T · dZ[2]"]
+    EQ13["dZ[1] = dA[1] · g'_ReLU(Z[1])"]
+    EQ14["dW[1] = 1/m * dZ[1] * X^T"]
+    EQ15["db[1] = 1/m * sum(dZ[1])"]
 
     O1 & O2 & O3 --> EQ1
     EQ1 --> EQ2
     EQ1 --> EQ3
-    EQ3 --> EQ4
+    EQ1 --> EQ4
     EQ4 --> EQ5
-    EQ4 --> EQ6
-    EQ6 --> EQ7
-    EQ7 --> EQ8
-    EQ7 --> EQ9
+    EQ5 --> EQ6
+    EQ5 --> EQ7
+    EQ5 --> EQ8
+    EQ8 --> EQ9
     EQ9 --> EQ10
-    EQ10 --> EQ11
-    EQ10 --> EQ12
-    EQ12 --> H1_1 & H1_2 & H1_3
+    EQ9 --> EQ11
+    EQ9 --> EQ12
+    EQ12 --> EQ13
+    EQ13 --> EQ14
+    EQ13 --> EQ15
+    EQ15 --> H1_1 & H1_2 & H1_3
 
     classDef default fill:#323031,stroke:#fff,stroke-width:2px,color:#fff;
     classDef equation fill:#ef233c,stroke:#fff,stroke-width:2px,color:#fff;
-    class EQ1,EQ2,EQ3,EQ4,EQ5,EQ6,EQ7,EQ8,EQ9,EQ10,EQ11,EQ12 equation;
+    class EQ1,EQ2,EQ3,EQ4,EQ5,EQ6,EQ7,EQ8,EQ9,EQ10,EQ11,EQ12,EQ13,EQ14,EQ15 equation;
 ```
 
 #### **Step 1: Calculate \( dZ[4] \)** (Output Layer)
