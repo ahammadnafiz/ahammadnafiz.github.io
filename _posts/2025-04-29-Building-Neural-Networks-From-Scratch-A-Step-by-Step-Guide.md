@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Building Neural Networks From Scratch A Step-by-Step Guide
-date: 2025-04-29 9:15
+date: 2025-04-29 10:15
 categories: [Deep Learning]
 tags: [neural-networks, deep-learning, machine-learning, backpropagation, gradient-descent, mathematics, tutorial]
 math: true
