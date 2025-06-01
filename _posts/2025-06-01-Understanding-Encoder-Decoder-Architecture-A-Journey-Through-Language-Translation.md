@@ -1341,176 +1341,22 @@ The answer changed everything.
 
 ---
 
-## References and Further Reading {#references}
+## References {#references}
 
-### 📚 Foundational Papers
+### Key Papers
 
-1. **Sutskever, I., Vinyals, O., & Le, Q. V. (2014).** *Sequence to Sequence Learning with Neural Networks.* Advances in Neural Information Processing Systems (NIPS), 27.
-   - [Paper Link](https://arxiv.org/abs/1409.3215)
-   - The original paper that introduced sequence-to-sequence learning with encoder-decoder architecture
+1. **Sutskever, I., Vinyals, O., & Le, Q. V. (2014).** *Sequence to Sequence Learning with Neural Networks.* [arXiv:1409.3215](https://arxiv.org/abs/1409.3215)
 
-2. **Cho, K., Van Merriënboer, B., Gulcehre, C., Bahdanau, D., Bougares, F., Schwenk, H., & Bengio, Y. (2014).** *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation.* EMNLP 2014.
-   - [Paper Link](https://arxiv.org/abs/1406.1078)
-   - Introduced the GRU-based encoder-decoder model
+2. **Cho, K., et al. (2014).** *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation.* [arXiv:1406.1078](https://arxiv.org/abs/1406.1078)
 
 3. **Hochreiter, S., & Schmidhuber, J. (1997).** *Long Short-Term Memory.* Neural Computation, 9(8), 1735-1780.
-   - [Paper Link](https://www.bioinf.jku.at/publications/older/2604.pdf)
-   - The foundational LSTM paper that made encoder-decoder architectures possible
 
-### 🔬 Advanced Extensions and Improvements
+4. **Bahdanau, D., Cho, K., & Bengio, Y. (2014).** *Neural Machine Translation by Jointly Learning to Align and Translate.* [arXiv:1409.0473](https://arxiv.org/abs/1409.0473)
 
-4. **Bahdanau, D., Cho, K., & Bengio, Y. (2014).** *Neural Machine Translation by Jointly Learning to Align and Translate.* ICLR 2015.
-   - [Paper Link](https://arxiv.org/abs/1409.0473)
-   - Introduced attention mechanisms to address the bottleneck problem
+5. **Vaswani, A., et al. (2017).** *Attention Is All You Need.* [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)
 
-5. **Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017).** *Attention Is All You Need.* Advances in Neural Information Processing Systems (NIPS), 30.
-   - [Paper Link](https://arxiv.org/abs/1706.03762)
-   - The Transformer paper that revolutionized the field
+### Learning Resources
 
-6. **Luong, M. T., Pham, H., & Manning, C. D. (2015).** *Effective Approaches to Attention-based Neural Machine Translation.* EMNLP 2015.
-   - [Paper Link](https://arxiv.org/abs/1508.04025)
-   - Alternative attention mechanisms and improvements
-
-### 📖 Comprehensive Surveys and Reviews
-
-7. **Koehn, P. (2020).** *Neural Machine Translation.* Cambridge University Press.
-   - Comprehensive textbook covering the evolution from statistical to neural MT
-
-8. **Goldberg, Y. (2017).** *Neural Network Methods for Natural Language Processing.* Morgan & Claypool Publishers.
-   - [Book Link](https://www.morganclaypool.com/doi/abs/10.2200/S00762ED1V01Y201703HLT037)
-   - Excellent coverage of neural NLP methods including seq2seq
-
-9. **Stahlberg, F. (2020).** *Neural Machine Translation: A Review.* Journal of Artificial Intelligence Research, 69, 343-418.
-   - [Paper Link](https://arxiv.org/abs/1912.02047)
-   - Comprehensive survey of neural machine translation techniques
-
-### 💻 Implementation Resources and Tutorials
-
-10. **The Illustrated Transformer** by Jay Alammar
-    - [Blog Link](https://jalammar.github.io/illustrated-transformer/)
-    - Excellent visual explanation of attention and transformer architectures
-
-11. **Understanding LSTMs** by Christopher Olah
-    - [Blog Link](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
-    - Intuitive explanation of LSTM internals
-
-12. **Sequence to Sequence Learning with PyTorch**
-    - [PyTorch Tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
-    - Official PyTorch implementation tutorial
-
-13. **TensorFlow Neural Machine Translation Tutorial**
-    - [TensorFlow Guide](https://www.tensorflow.org/text/tutorials/nmt_with_attention)
-    - Step-by-step implementation with attention
-
-### 🛠️ Code Repositories and Frameworks
-
-14. **OpenNMT** - Open Source Neural Machine Translation
-    - [GitHub Repository](https://github.com/OpenNMT/OpenNMT-py)
-    - Production-ready neural machine translation toolkit
-
-15. **Fairseq** by Facebook AI Research
-    - [GitHub Repository](https://github.com/pytorch/fairseq)
-    - Sequence modeling toolkit with state-of-the-art models
-
-16. **Google's seq2seq** (Legacy but Educational)
-    - [GitHub Repository](https://github.com/google/seq2seq)
-    - TensorFlow-based sequence-to-sequence framework
-
-### 🌐 Online Courses and Educational Materials
-
-17. **CS224N: Natural Language Processing with Deep Learning** (Stanford)
-    - [Course Website](http://cs224n.stanford.edu/)
-    - Excellent lectures on sequence models and attention
-
-18. **Deep Learning Specialization** by Andrew Ng (Coursera)
-    - [Course Link](https://www.coursera.org/specializations/deep-learning)
-    - Course 5 covers sequence models in detail
-
-19. **Fast.ai Natural Language Processing Course**
-    - [Course Materials](https://www.fast.ai/posts/2019-07-08-fastai-nlp.html)
-    - Practical approach to NLP with modern techniques
-
-### 📊 Datasets and Benchmarks
-
-20. **WMT (Workshop on Machine Translation) Shared Tasks**
-    - [Website](https://www.statmt.org/wmt22/)
-    - Annual competition with standard datasets for machine translation
-
-21. **OPUS** - Collection of Translated Texts
-    - [Website](https://opus.nlpl.eu/)
-    - Large collection of parallel corpora for many language pairs
-
-22. **Multi30K** - Multilingual Image Descriptions
-    - [Dataset](https://github.com/multi30k/dataset)
-    - Popular dataset for multimodal machine translation
-
-### 🔍 Historical Context and Evolution
-
-23. **Koehn, P., Och, F. J., & Marcu, D. (2003).** *Statistical Phrase-Based Translation.* NAACL-HLT 2003.
-    - [Paper Link](https://www.aclweb.org/anthology/N03-1017/)
-    - Important pre-neural approach for historical context
-
-24. **Brown, P. F., Pietra, V. J. D., Pietra, S. A. D., & Mercer, R. L. (1993).** *The Mathematics of Statistical Machine Translation: Parameter Estimation.* Computational Linguistics, 19(2), 263-311.
-    - [Paper Link](https://aclanthology.org/J93-2003/)
-    - Classical IBM models that preceded neural approaches
-
-### 🚀 Modern Applications and Extensions
-
-25. **Lewis, M., Liu, Y., Goyal, N., Ghazvininejad, M., Mohamed, A., Levy, O., ... & Zettlemoyer, L. (2019).** *BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension.* ACL 2020.
-    - [Paper Link](https://arxiv.org/abs/1910.13461)
-    - Modern pre-trained sequence-to-sequence models
-
-26. **Radford, A., Wu, J., Child, R., Luan, D., Amodei, D., & Sutskever, I. (2019).** *Language Models are Unsupervised Multitask Learners.* OpenAI Blog.
-    - [Paper Link](https://cdn.openai.com/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
-    - GPT-2 and the shift toward generative language models
-
-### 📱 Tools and Practical Applications
-
-27. **Google Translate** - Real-world Implementation
-    - [Research Blog](https://ai.googleblog.com/2016/09/a-neural-network-for-machine.html)
-    - How Google implemented neural machine translation
-
-28. **Hugging Face Transformers**
-    - [Library](https://huggingface.co/transformers/)
-    - Easy-to-use implementations of modern NLP models
-
-29. **MarianMT** - Fast Neural Machine Translation
-    - [GitHub](https://github.com/marian-nmt/marian)
-    - Efficient C++ implementation for production use
-
-### 🎯 Specialized Topics
-
-30. **Johnson, M., Schuster, M., Le, Q. V., Krikun, M., Wu, Y., Chen, Z., ... & Dean, J. (2017).** *Google's Multilingual Neural Machine Translation System: Enabling Zero-Shot Translation.* Transactions of the Association for Computational Linguistics, 5, 339-351.
-    - [Paper Link](https://arxiv.org/abs/1611.04558)
-    - Multilingual and zero-shot translation approaches
-
-31. **Sennrich, R., Haddow, B., & Birch, A. (2015).** *Neural Machine Translation of Rare Words with Subword Units.* ACL 2016.
-    - [Paper Link](https://arxiv.org/abs/1508.07909)
-    - Byte Pair Encoding (BPE) for handling rare words
-
-### 💡 Bonus: Interactive Visualizations
-
-32. **Tensor2Tensor Visualization**
-    - [Colab Notebook](https://colab.research.google.com/github/tensorflow/tensor2tensor/blob/master/tensor2tensor/notebooks/hello_t2t.ipynb)
-    - Interactive exploration of sequence-to-sequence models
-
-33. **Attention Visualization Tools**
-    - [bertviz](https://github.com/jessevig/bertviz) - Visualize attention in transformer models
-    - [exBERT](https://exbert.net/) - Interactive exploration of BERT attention
-
----
-
-### 📝 Note on Citations
-
-When referencing this work in academic contexts, please cite the foundational papers, particularly:
-
-- Sutskever et al. (2014) for the original sequence-to-sequence framework
-- Cho et al. (2014) for the encoder-decoder terminology and GRU variant
-- Bahdanau et al. (2014) for attention mechanisms that solved the bottleneck problem
-
-These papers laid the groundwork for virtually all modern natural language processing and generation systems we use today.
-
----
-
-*Last Updated: June 2025*  
-*For the most current research, check recent proceedings from ACL, EMNLP, ICLR, and NeurIPS conferences.*
+- **Understanding LSTMs** by Christopher Olah: [Blog Post](https://colah.github.io/posts/2015-08-Understanding-LSTMs/)
+- **PyTorch Seq2Seq Tutorial**: [Official Guide](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
+- **CS224N Stanford Course**
