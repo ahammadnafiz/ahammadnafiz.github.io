@@ -801,54 +801,6 @@ The mathematical framework shows that attention is not just an engineering trick
 **9. Wang et al. (2017)** – [*Gated Self-Matching Networks*](https://aclanthology.org/P17-1018/)
 → **Gated attention** within passages.
 
----
-
-### 🔁 Pointer & Copy Mechanisms
-
-**10. Vinyals et al. (2015)** – [*Pointer Networks*](https://arxiv.org/abs/1506.03134)
-→ Used attention as a **pointer** for dynamic output lengths.
-
-**11. See et al. (2017)** – [*Pointer-Generator Networks*](https://arxiv.org/abs/1704.04368)
-→ Combined generation and **copying** for summarization.
-
----
-
-### 🔊 Speech Recognition
-
-**12. Chan et al. (2016)** – [*Listen, Attend and Spell*](https://arxiv.org/abs/1508.01211)
-→ End-to-end speech recognition with **pyramidal encoder** and attention.
-
-**13. Chorowski et al. (2015)** – [*Attention-based Speech Models*](https://arxiv.org/abs/1506.07503)
-→ Introduced **location-aware attention** for audio.
-
----
-
-### 🌍 Large-Scale NMT
-
-**14. Wu et al. (2016)** – [*GNMT*](https://arxiv.org/abs/1609.08144)
-→ Google's production-scale **attention-based** NMT system.
-
----
-
-### 🧠 Theoretical Insights
-
-**15. Koehn & Knowles (2017)** – [*Six Challenges in NMT*](https://arxiv.org/abs/1706.03872)
-→ Discussed issues like **alignment quality** and scalability.
-
-**16. Ghader & Monz (2017)** – [*What Does Attention Learn?*](https://arxiv.org/abs/1710.03348)
-→ Showed attention often captures **syntax**, not just alignment.
-
----
-
-### 📚 Surveys & Tutorials
-
-* **Chaudhari et al. (2021)** – [*An Attentive Survey of Attention Models*](https://arxiv.org/abs/1904.02874)
-* **Jay Alammar** – [*The Illustrated Transformer*](https://jalammar.github.io/illustrated-transformer/)
-* **Lilian Weng** – [*Attention? Attention!*](https://lilianweng.github.io/posts/2018-06-24-attention/)
-* **Stanford CS224N & CS231N** – Lecture slides on **attention** in NLP and CV.
-
----
-
 ### 📦 Codebases
 
 * [OpenNMT](https://github.com/OpenNMT/OpenNMT-py)
