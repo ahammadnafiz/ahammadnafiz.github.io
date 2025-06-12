@@ -173,7 +173,7 @@ $$
 **Step-by-step breakdown:**
 
 1. **Concatenation:** $[s_{i-1}; h_j] \in \mathbb{R}^{2d}$ combines decoder and encoder information
-2. **Linear transformation:** $\mathbf{W}_a [s_{i-1}; h_j] + \mathbf{b}_a$ projects to hidden space
+2. **Linear transformation:** $$\mathbf{W}_a [\mathbf{s}_{i-1}; \mathbf{h}_j] + \mathbf{b}_a$$ projects to hidden space
    - $\mathbf{W}_a \in \mathbb{R}^{d_a \times 2d}$ (learnable weight matrix)
    - $\mathbf{b}_a \in \mathbb{R}^{d_a}$ (learnable bias vector)
    - $d_a$ is the attention hidden dimension
