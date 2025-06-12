@@ -764,173 +764,94 @@ The mathematical framework shows that attention is not just an engineering trick
 
 ## References
 
-### Foundational Papers
+### 🔑 Foundational Papers on Attention
 
-**Attention Mechanisms:**
-1. **Bahdanau, D., Cho, K., & Bengio, Y. (2014).** *Neural Machine Translation by Jointly Learning to Align and Translate.* ICLR 2015. [arXiv:1409.0473](https://arxiv.org/abs/1409.0473)
-   - **Key contribution:** First neural attention mechanism for sequence-to-sequence learning
-   - **Innovation:** Additive attention with bidirectional encoder
+**1. Bahdanau et al. (2014)** – [*Neural Machine Translation by Jointly Learning to Align and Translate*](https://arxiv.org/abs/1409.0473)
+→ Introduced **additive attention**, solved fixed-length bottleneck in seq2seq.
 
-2. **Luong, M. T., Pham, H., & Manning, C. D. (2015).** *Effective Approaches to Attention-based Neural Machine Translation.* EMNLP 2015. [arXiv:1508.04025](https://arxiv.org/abs/1508.04025)
-   - **Key contribution:** Multiplicative attention variants (dot-product, general, concat)
-   - **Innovation:** Global vs. local attention, input-feeding
+**2. Luong et al. (2015)** – [*Effective Approaches to Attention-based NMT*](https://arxiv.org/abs/1508.04025)
+→ Proposed **dot/general attention**, and **global vs. local** attention.
 
-3. **Vaswani, A., Shazeer, N., Parmar, N., Uszkoreit, J., Jones, L., Gomez, A. N., ... & Polosukhin, I. (2017).** *Attention is All You Need.* NIPS 2017. [arXiv:1706.03762](https://arxiv.org/abs/1706.03762)
-   - **Key contribution:** Transformer architecture with self-attention
-   - **Innovation:** Multi-head attention, positional encoding, attention-only architecture
+**3. Vaswani et al. (2017)** – [*Attention is All You Need*](https://arxiv.org/abs/1706.03762)
+→ Introduced the **Transformer**, with **self-attention** and **multi-head** design.
 
-**Sequence-to-Sequence Foundations:**
-4. **Sutskever, I., Vinyals, O., & Le, Q. V. (2014).** *Sequence to Sequence Learning with Neural Networks.* NIPS 2014. [arXiv:1409.3215](https://arxiv.org/abs/1409.3215)
-   - **Key contribution:** Vanilla encoder-decoder architecture
-   - **Problem addressed:** Information bottleneck that attention mechanisms solve
+**4. Sutskever et al. (2014)** – [*Sequence to Sequence Learning*](https://arxiv.org/abs/1409.3215)
+→ Baseline **encoder-decoder** model with RNNs.
 
-5. **Cho, K., Van Merriënboer, B., Gulcehre, C., Bahdanau, D., Bougares, F., Schwenk, H., & Bengio, Y. (2014).** *Learning Phrase Representations using RNN Encoder-Decoder for Statistical Machine Translation.* EMNLP 2014. [arXiv:1406.1078](https://arxiv.org/abs/1406.1078)
-   - **Key contribution:** GRU and encoder-decoder for phrase representation
-   - **Background:** Showed limitations of fixed-length vectors
-
-### Visual Attention and Extensions
-
-6. **Xu, K., Ba, J., Kiros, R., Cho, K., Courville, A., Salakhudinov, R., ... & Bengio, Y. (2015).** *Show, Attend and Tell: Neural Image Caption Generation with Visual Attention.* ICML 2015. [arXiv:1502.03044](https://arxiv.org/abs/1502.03044)
-   - **Key contribution:** First visual attention mechanism for image captioning
-   - **Innovation:** Hard vs. soft attention, spatial attention over image regions
-
-7. **Mnih, V., Heess, N., & Graves, A. (2014).** *Recurrent Models of Visual Attention.* NIPS 2014. [arXiv:1406.6247](https://arxiv.org/abs/1406.6247)
-   - **Key contribution:** Hard attention for visual recognition
-   - **Innovation:** Reinforcement learning for attention control
-
-### Reading Comprehension and Question Answering
-
-8. **Seo, M., Kembhavi, A., Farhadi, A., & Hajishirzi, H. (2017).** *Bidirectional Attention Flow for Machine Comprehension.* ICLR 2017. [arXiv:1611.01603](https://arxiv.org/abs/1611.01603)
-   - **Key contribution:** Bidirectional attention between question and context
-   - **Innovation:** Query-to-context and context-to-query attention flows
-
-9. **Wang, W., Yang, N., Wei, F., Chang, B., & Zhou, M. (2017).** *Gated Self-Matching Networks for Reading Comprehension and Question Answering.* ACL 2017. [Paper](https://aclanthology.org/P17-1018/)
-   - **Key contribution:** Self-matching attention within context passages
-   - **Innovation:** Gated attention mechanism for question answering
-
-### Pointer Networks and Copy Mechanisms
-
-10. **Vinyals, O., Fortunato, M., & Jaitly, N. (2015).** *Pointer Networks.* NIPS 2015. [arXiv:1506.03134](https://arxiv.org/abs/1506.03134)
-    - **Key contribution:** Attention as pointer mechanism for variable-length outputs
-    - **Innovation:** Output vocabulary can vary with input (e.g., sorting, TSP)
-
-11. **See, A., Liu, P. J., & Manning, C. D. (2017).** *Get To The Point: Summarization with Pointer-Generator Networks.* ACL 2017. [arXiv:1704.04368](https://arxiv.org/abs/1704.04368)
-    - **Key contribution:** Pointer-generator networks for abstractive summarization
-    - **Innovation:** Copy mechanism with attention for handling OOV words
-
-### Speech Recognition
-
-12. **Chan, W., Jaitly, N., Le, Q., & Vinyals, O. (2016).** *Listen, Attend and Spell: A Neural Network for Large Vocabulary Conversational Speech Recognition.* ICASSP 2016. [arXiv:1508.01211](https://arxiv.org/abs/1508.01211)
-    - **Key contribution:** End-to-end attention-based speech recognition
-    - **Innovation:** Pyramidal encoder with attention-based character decoder
-
-13. **Chorowski, J. K., Bahdanau, D., Serdyuk, D., Cho, K., & Bengio, Y. (2015).** *Attention-based Models for Speech Recognition.* NIPS 2015. [arXiv:1506.07503](https://arxiv.org/abs/1506.07503)
-    - **Key contribution:** First attention mechanism for speech recognition
-    - **Innovation:** Convolutional features with location-aware attention
-
-### Large-Scale Applications
-
-14. **Wu, Y., Schuster, M., Chen, Z., Le, Q. V., Norouzi, M., Macherey, W., ... & Dean, J. (2016).** *Google's Neural Machine Translation System: Bridging the Gap between Human and Machine Translation.* arXiv preprint. [arXiv:1609.08144](https://arxiv.org/abs/1609.08144)
-    - **Key contribution:** GNMT - first large-scale production attention-based NMT
-    - **Innovation:** Residual connections, attention connect bottom encoder to top decoder
-
-### Theoretical Analysis
-
-15. **Koehn, P., & Knowles, R. (2017).** *Six Challenges for Neural Machine Translation.* WMT 2017. [arXiv:1706.03872](https://arxiv.org/abs/1706.03872)
-    - **Key contribution:** Analysis of attention alignment quality and interpretability
-    - **Insights:** When attention weights correspond to true word alignments
-
-16. **Ghader, H., & Monz, C. (2017).** *What does Attention in Neural Machine Translation Pay Attention to?* WMT 2017. [arXiv:1710.03348](https://arxiv.org/abs/1710.03348)
-    - **Key contribution:** Empirical analysis of what attention learns
-    - **Findings:** Attention often captures syntactic relationships
-
-### Survey Papers
-
-17. **Chaudhari, S., Mithal, V., Polatkan, G., & Ramanath, R. (2021).** *An Attentive Survey of Attention Models.* ACM Computing Surveys. [arXiv:1904.02874](https://arxiv.org/abs/1904.02874)
-    - **Key contribution:** Comprehensive survey of attention mechanisms across domains
-    - **Coverage:** Visual, textual, graph, and multimodal attention
-
-18. **Niu, Z., Zhong, G., & Yu, H. (2021).** *A Review on the Attention Mechanism of Deep Learning.* Neurocomputing.
-    - **Key contribution:** Survey focusing on mathematical foundations
-    - **Coverage:** Soft vs. hard attention, self-attention, cross-attention
-    - *Note: Paper available through academic databases*
-
-### Important Blog Posts and Tutorials
-
-**Technical Blogs:**
-1. **Jay Alammar - The Illustrated Transformer** [Blog](https://jalammar.github.io/illustrated-transformer/)
-   - Excellent visual explanations of attention and Transformers
-   - Step-by-step walkthrough with animations
-
-2. **Lilian Weng - Attention? Attention!** [Blog](https://lilianweng.github.io/posts/2018-06-24-attention/)
-   - Comprehensive technical overview of attention mechanisms
-   - Mathematical details with clear explanations
-
-3. **Sebastian Ruder - Neural Machine Translation** 
-   - Historical perspective on attention development
-   - Comparison of different attention variants
-   - *Note: Author's original blog link temporarily unavailable*
-
-4. **Distill.pub - Attention and Augmented Recurrent Neural Networks** [Blog](https://distill.pub/2016/augmented-rnns/)
-   - Interactive visualizations of attention mechanisms
-   - Focus on intuitive understanding
-
-**Academic Course Materials:**
-5. **CS224N Stanford - Attention and Memory** [Slides](https://web.stanford.edu/class/cs224n/)
-   - Lecture slides from Stanford's NLP course
-   - Detailed mathematical derivations
-
-6. **CS231N Stanford - Attention and Transformers** [Slides](https://cs231n.stanford.edu/)
-   - Computer vision perspective on attention
-   - Visual attention mechanisms
-
-**Implementation Guides:**
-7. **PyTorch Tutorials - Attention Mechanisms** [Tutorial](https://pytorch.org/tutorials/intermediate/seq2seq_translation_tutorial.html)
-   - Code implementation of Bahdanau attention
-   - Practical tutorial with working examples
-
-8. **TensorFlow - Neural Machine Translation with Attention** [Tutorial](https://www.tensorflow.org/text/tutorials/nmt_with_attention)
-   - Step-by-step implementation guide
-   - Complete working code examples
-
-### Datasets and Benchmarks
-
-**Machine Translation:**
-- **WMT Shared Tasks** [Website](https://www.statmt.org/wmt23/) - Annual translation competitions
-- **OPUS** [Website](https://opus.nlpl.eu/) - Large collection of parallel corpora
-
-**Reading Comprehension:**
-- **SQuAD** [Website](https://rajpurkar.github.io/SQuAD-explorer/) - Stanford Question Answering Dataset
-- **MS MARCO** [Website](https://microsoft.github.io/msmarco/) - Microsoft machine reading comprehension
-
-**Image Captioning:**
-- **MS COCO** [Website](https://cocodataset.org/) - Common Objects in Context for captioning
-- **Flickr30K** [Website](http://shannon.cs.illinois.edu/DenotationGraph/) - 30K images with captions
-
-### Code Repositories
-
-1. **OpenNMT** [GitHub](https://github.com/OpenNMT/OpenNMT-py) - Open source neural machine translation
-2. **Fairseq** [GitHub](https://github.com/pytorch/fairseq) - Facebook's sequence modeling toolkit
-3. **Transformers** [GitHub](https://github.com/huggingface/transformers) - Hugging Face transformers library
-4. **Tensor2Tensor** [GitHub](https://github.com/tensorflow/tensor2tensor) - Google's deep learning library
-
-### Mathematical Background
-
-**Information Theory:**
-- **Cover, T. M., & Thomas, J. A. (2006).** *Elements of Information Theory.* Wiley.
-  - Chapter 2: Entropy and mutual information
-  - Mathematical foundations for attention as information retrieval
-
-**Optimization:**
-- **Boyd, S., & Vandenberghe, L. (2004).** *Convex Optimization.* Cambridge University Press.
-  - Chapter 3: Convex functions (relevant for softmax analysis)
-  - Chapter 9: Gradient methods
-
-**Linear Algebra:**
-- **Strang, G. (2019).** *Linear Algebra and Learning from Data.* Wellesley-Cambridge Press.
-  - Matrix operations fundamental to attention computations
-  - Eigenvalue analysis for understanding attention patterns
+**5. Cho et al. (2014)** – [*Learning Phrase Representations with RNN Encoder-Decoder*](https://arxiv.org/abs/1406.1078)
+→ Introduced **GRU**, demonstrated early seq2seq without attention.
 
 ---
 
-**Note:** All links have been verified and updated as of June 2025. Some links to author blogs or paywalled papers may become temporarily unavailable due to server maintenance or access restrictions. For alternative access to academic papers, try [arXiv](https://arxiv.org/), [Google Scholar](https://scholar.google.com/), or your institutional library.
+### 🖼️ Visual Attention
+
+**6. Xu et al. (2015)** – [*Show, Attend and Tell*](https://arxiv.org/abs/1502.03044)
+→ First **visual attention** for image captioning.
+
+**7. Mnih et al. (2014)** – [*Recurrent Models of Visual Attention*](https://arxiv.org/abs/1406.6247)
+→ Introduced **hard attention** with RL.
+
+---
+
+### 📖 Reading Comprehension
+
+**8. Seo et al. (2017)** – [*BiDAF*](https://arxiv.org/abs/1611.01603)
+→ **Bidirectional attention flow** between question and context.
+
+**9. Wang et al. (2017)** – [*Gated Self-Matching Networks*](https://aclanthology.org/P17-1018/)
+→ **Gated attention** within passages.
+
+---
+
+### 🔁 Pointer & Copy Mechanisms
+
+**10. Vinyals et al. (2015)** – [*Pointer Networks*](https://arxiv.org/abs/1506.03134)
+→ Used attention as a **pointer** for dynamic output lengths.
+
+**11. See et al. (2017)** – [*Pointer-Generator Networks*](https://arxiv.org/abs/1704.04368)
+→ Combined generation and **copying** for summarization.
+
+---
+
+### 🔊 Speech Recognition
+
+**12. Chan et al. (2016)** – [*Listen, Attend and Spell*](https://arxiv.org/abs/1508.01211)
+→ End-to-end speech recognition with **pyramidal encoder** and attention.
+
+**13. Chorowski et al. (2015)** – [*Attention-based Speech Models*](https://arxiv.org/abs/1506.07503)
+→ Introduced **location-aware attention** for audio.
+
+---
+
+### 🌍 Large-Scale NMT
+
+**14. Wu et al. (2016)** – [*GNMT*](https://arxiv.org/abs/1609.08144)
+→ Google's production-scale **attention-based** NMT system.
+
+---
+
+### 🧠 Theoretical Insights
+
+**15. Koehn & Knowles (2017)** – [*Six Challenges in NMT*](https://arxiv.org/abs/1706.03872)
+→ Discussed issues like **alignment quality** and scalability.
+
+**16. Ghader & Monz (2017)** – [*What Does Attention Learn?*](https://arxiv.org/abs/1710.03348)
+→ Showed attention often captures **syntax**, not just alignment.
+
+---
+
+### 📚 Surveys & Tutorials
+
+* **Chaudhari et al. (2021)** – [*An Attentive Survey of Attention Models*](https://arxiv.org/abs/1904.02874)
+* **Jay Alammar** – [*The Illustrated Transformer*](https://jalammar.github.io/illustrated-transformer/)
+* **Lilian Weng** – [*Attention? Attention!*](https://lilianweng.github.io/posts/2018-06-24-attention/)
+* **Stanford CS224N & CS231N** – Lecture slides on **attention** in NLP and CV.
+
+---
+
+### 📦 Codebases
+
+* [OpenNMT](https://github.com/OpenNMT/OpenNMT-py)
+* [Fairseq](https://github.com/pytorch/fairseq)
+* [HuggingFace Transformers](https://github.com/huggingface/transformers)
+* [Tensor2Tensor](https://github.com/tensorflow/tensor2tensor)
