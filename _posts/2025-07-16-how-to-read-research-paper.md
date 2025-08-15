@@ -134,9 +134,7 @@ r/PhD এর একটা post এ দেখলাম: [Tips for reading papers 
 
 r/AskAcademia তে আরেকটা post পড়লাম: [How to get better at reading research papers?](https://www.reddit.com/r/AskAcademia/comments/1igflq8/how_to_get_better_at_reading_research_papers/maoe2vz/)
 
-সেখানে journal club এর কথা বলা ছিল। ভাবলাম আমার বন্ধুদের সাথে একটা group বানাই। আমাদের বিভাগের ৫ জন মিলে **"Paper Reading Club"** বানালাম।
-
-প্রতি সপ্তাহে একটা paper নিয়ে আলোচনা। প্রত্যেকে আলাদা আলাদা section নিয়ে present করে। 
+সেখানে journal club এর কথা বলা ছিল। ভাবলাম, বন্ধুদের নিয়ে একটা গ্রুপ শুরু করি। এখনো বানাইনি, তবে আইডিয়া হলো—আমাদের বিভাগের কয়েকজন মিলে **'Paper Reading Club'** চালু করা। প্রতি সপ্তাহে একটি পেপার নিয়ে আলোচনা হবে, আর প্রত্যেকে আলাদা আলাদা সেকশন প্রেজেন্ট করবে।
 
 একজন comment করেছিল: 
 
