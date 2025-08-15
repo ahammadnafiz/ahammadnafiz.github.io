@@ -138,7 +138,7 @@ r/PhD এর একটা post এ পড়েছিলাম: [Efficient way t
 
 ## বিভিন্ন ধরনের গবেষণাপত্রের জন্য আলাদা কৌশল
 
-r/AskAcademia এর আরেকটা post থেকে শিখলাম যে সব paper একইভাবে পড়তে নেই:
+r/AskAcademia এর আরেকটা post [How do you actually read research papers?](https://www.reddit.com/r/AskAcademia/comments/1iy7xih/how_do_you_actually_read_research_papers/mesvgu4/) থেকে শিখলাম যে সব paper একইভাবে পড়তে নেই:
 
 ### **Research Papers:**
 - Methodology section এ বেশি focus
@@ -157,7 +157,7 @@ r/AskAcademia এর আরেকটা post থেকে শিখলাম য
 
 ## সময় ব্যবস্থাপনার কৌশল
 
-r/PhD এর এই post টা থেকে time management শিখলাম:
+r/PhD এর এই post [Tips for reading papers faster](https://www.reddit.com/r/PhD/comments/qoyygf/tips_for_reading_papers_faster/hjqhq6r/) টা থেকে time management শিখলাম:
 
 ### **First Pass (১০-১৫ মিনিট):**
 - Title, Abstract, Conclusion
@@ -186,7 +186,7 @@ r/hospitalist এর একটা post এ অনলাইন courses এর ক
 
 ## সমালোচনামূলক পড়ার দক্ষতা
 
-r/AskAcademia এর এই post টা critical reading শেখাল। শিখলাম এই questions গুলো করতে:
+r/AskAcademia এর এই post [How to Critically Read and Review a Research Paper](https://www.reddit.com/r/AskAcademia/comments/1mkt6sg/how_do_you_critically_readreview_someone_elses/n7l7phu/) টা critical reading শেখাল। শিখলাম এই questions গুলো করতে:
 
 1. **Problem Statement:** সমস্যাটা কি clear এবং relevant?
 2. **Methodology:** Approach টা কি appropriate?
