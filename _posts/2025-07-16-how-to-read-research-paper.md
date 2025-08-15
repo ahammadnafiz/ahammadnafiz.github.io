@@ -6,7 +6,7 @@ categories: [Research, Personal-Journey]
 tags: [research-paper, learning, academic-journey, perseverance, success-story]
 math: true
 ---
-![Intro](assets/Posts/research_papers.png)
+![Intro](assets/Posts/research_papers.jpg)
 
 ## প্রথম পরিচয়: একটি গবেষণাপত্র নিয়ে সংগ্রাম
 
