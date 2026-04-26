@@ -8,7 +8,6 @@ remote_theme: cotes2020/jekyll-theme-chirpy
 plugins:
   - jekyll-paginate
   - jekyll-redirect-from
-  - jekyll-feed
   - jekyll-seo-tag
   - jekyll-archives
   - jekyll-sitemap
@@ -26,12 +25,11 @@ timezone: Asia/Dhaka
 
 title: Ahammad Nafiz # the main title
 
-tagline: Python | Machine Learning  # it will display as the sub-title
+tagline: Software Engineer · AI & RAG Systems  # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  Ahammad Nafiz: Expert in Python and Machine Learning. Discover insightful articles on data science, 
-  AI, deep learning, and software engineering. Practical tutorials, code examples, and industry insights. 
-  Stay updated with the latest tech trends and boost your programming skills.
+  Notes from Ahammad Nafiz on building AI systems — RAG pipelines, LLM evaluation,
+  agent architectures, and the engineering behind them.
 
 # ... rest of the file remains unchanged ...
 
@@ -67,7 +65,7 @@ google_analytics:
   id: # fill in your Google Analytics ID
 
 goatcounter:
-  id: # fill in your Goatcounter ID
+  id: ahammadnafiz # fill in your Goatcounter ID
 
 # Prefer color scheme setting.
 #
@@ -189,6 +187,11 @@ defaults:
 
 sass:
   style: compressed
+  quiet_deps: true
+  silence_deprecations:
+    - import
+    - global-builtin
+    - color-functions
 
 compress_html:
   clippings: all

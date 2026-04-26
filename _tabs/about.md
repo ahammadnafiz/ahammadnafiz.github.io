@@ -1,79 +1,69 @@
 ---
-# the default layout is 'page'
 icon: fas fa-info-circle
 order: 4
 ---
 
-<div align="center">
-  <h1>👋 Hello, I'm Nafiz!</h1>
-  <p><em>Data Science Student | AI Researcher | Open Source Enthusiast</em></p>
-</div>
+Software engineer working on AI systems — RAG pipelines, LLM evaluation, and agentic workflows. Currently at [AskTuring.ai](https://askturing.ai/) and a research assistant at United International University, where I'm pursuing a B.Sc. in Data Science.
+
+I write here about the things I'm building and the papers I read along the way.
+
+- Email — [ahammadnafiz86@gmail.com](mailto:ahammadnafiz86@gmail.com)
+- GitHub — [ahammadnafiz](https://github.com/ahammadnafiz)
+- LinkedIn — [ahammad-nafiz](https://linkedin.com/in/ahammad-nafiz)
+- Portfolio — [ahammadnafiz.github.io/portfolio](https://ahammadnafiz.github.io/portfolio/)
 
 ---
 
-## 🎯 About Me
+## Experience
 
-I'm a passionate Data Science student with a deep fascination for AI research, particularly in **Natural Language Processing** and **Reinforcement Learning**. My journey revolves around understanding machine learning from both theoretical foundations and practical implementations.
+**Jr. Software Engineer** — [AskTuring.ai](https://askturing.ai/) · *Sep 2025 – Present*
 
-Currently, I'm diving deep into **Transformer architectures** by building them from scratch—because there's no better way to truly understand how these powerful models work under the hood.
+Promoted from AI Engineer Intern. I own the Eval Service and Admin Dashboard, automating benchmark evaluation of RAG pipelines across HotpotQA, MuSiQue, FinQA, and CUAD. Architected **Deepen Answer** — a production RAG pipeline that combines extended-thinking LLMs, expanded retrieval, and an agentic gap-fill layer for research-grade answers. Build scalable backend services and REST APIs; tune retrieval through hybrid BM25 + vector search with reciprocal rank fusion.
 
----
+**Research Assistant** — United International University · *Dec 2025 – Present*
 
-## 🚀 Leadership & Community
+Research on autonomous AI agents and multi-agent systems, contributing to publications and academic initiatives across LLMs, retrieval, and agentic workflows.
 
-### Head of R&D at UIU Data Science Club
-- 🎓 Lead workshops and educational sessions
-- 🔬 Spearhead research projects and collaborations
-- 🤝 Foster a community of learners and innovators
-- 📈 Help others grow alongside me in the AI/ML journey
+**Head of R&D** — UIU Data Science Club · *Mar 2025 – Present*
+
+Lead AI/ML research initiatives, student projects, and workshops on transformers and deployment. Organize industry collaborations and hackathons.
 
 ---
 
-## 🛠️ Projects & Contributions
+## Projects
 
-I'm passionate about making complex AI concepts more accessible through educational tools:
+**[Predicta](https://github.com/ahammadnafiz/Predicta)** — ML pipeline platform automating EDA, feature engineering, and model optimization. Cuts repetitive workflow time by ~40%. *Champion, UIU CSE Project Show, Spring 2024.*
 
-### 🔥 **FizTorch**
-A custom deep learning framework built from scratch to help others understand the inner workings of neural networks.
+**[Personal Knowledge Assistant](https://github.com/ahammadnafiz/Personal-Knowledge-Assistant)** — Multi-agent RAG system with semantic search, document chunking, and intelligent routing across LLM agents and a vector store.
 
-### 🤖 **Predicta**
-An AutoML pipeline designed to democratize machine learning and make it accessible to everyone.
+**[Analyzia](https://github.com/ahammadnafiz/Analyzia)** — AI CSV analysis platform built on LangChain agents with RAG, turning natural-language queries into visualizations.
 
----
-
-## 🎓 Learning Philosophy
-
-> *"The best way to learn AI is through research papers, hands-on coding, and meaningful collaboration."*
-
-I believe in:
-- 📚 **Research-driven learning** - Diving deep into academic papers
-- 💻 **Implementation-focused approach** - Building everything from scratch
-- 🌐 **Open collaboration** - Sharing knowledge and learning together
-- 🔄 **Continuous growth** - Always seeking mentors and new challenges
+**[YOLOv12 Bangladeshi Food Detection](https://github.com/ahammadnafiz/ML-From-Scratch/tree/main/Projects/YOLO11%20Bangladesh%20Street%20Food%20Detection)** — YOLOv12m (19.6M params) reaching 87.7% mAP@0.5 and 82.7% F1 on a 3,988-image dataset, 151 FPS at inference.
 
 ---
 
-## 🌟 What Drives Me
+## Achievements
 
-- **Curiosity**: Always asking "how does this really work?"
-- **Teaching**: Sharing knowledge to help others succeed
-- **Innovation**: Building tools that make learning easier
-- **Community**: Contributing to open-source projects and research
-
----
-
-## 🤝 Let's Connect!
-
-I'm always looking to:
-- 🧠 Connect with mentors and industry experts
-- 🔗 Collaborate on exciting AI/ML projects
-- 💡 Contribute to meaningful open-source initiatives
-- 📖 Learn from the amazing AI research community
-
-Feel free to reach out if you'd like to discuss AI, share ideas, or collaborate on something amazing!
+- **Champion** — IC 6 University Innovation Hub Program, UIU Cohort (BDT 60,000 pre-seed funding)
+- **Best Prototype Award** — Blockchain Olympiad, UIU CSE Fest 2025 (BDT 20,000 prize)
+- **Champion** — UIU CSE Project Show, Spring 2024 (Predicta)
+- **1st Runners-Up** — Data Innovators Challenge 2024 (sales analytics)
 
 ---
 
-<div align="center">
-  <em>"In AI, as in life, the journey of learning never ends."</em>
-</div>
+## Education
+
+**B.Sc. in Data Science** — United International University, Dhaka · *Sep 2023 – Present*
+
+---
+
+## Technical Skills
+
+| | |
+|---|---|
+| **Languages** | Python, C++, SQL |
+| **Libraries** | NumPy, Pandas, Scikit-learn, PyTorch, TensorFlow, OpenCV, Matplotlib, Seaborn |
+| **Frameworks** | LangChain, LlamaIndex, Hugging Face, CrewAI, AutoGen, FastAPI, Streamlit |
+| **Tools** | Git, Docker, Linux, Vim, VS Code, Jupyter, MLflow |
+| **Databases** | MySQL, Chroma, FAISS, Pinecone, Weaviate |
+| **Domains** | Backend engineering, RAG systems, LLM evaluation, AI agents, deep learning, NLP, computer vision, MLOps |

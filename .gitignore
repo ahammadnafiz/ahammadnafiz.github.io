@@ -19,3 +19,7 @@ package-lock.json
 
 # Misc
 assets/js/dist
+
+# macOS
+.DS_Store
+**/.DS_Store

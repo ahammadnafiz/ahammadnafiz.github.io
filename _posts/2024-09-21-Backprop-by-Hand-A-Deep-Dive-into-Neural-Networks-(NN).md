@@ -6,7 +6,7 @@ categories: [Neural Network]
 math: true
 mermaid: true
 
-tags: [python, tutorial, neural network, backpropagation, deep learning, machine learning]
+tags: [python, tutorial, neural-network, backpropagation, deep-learning, machine-learning]
 ---
 
 <script type="module">
