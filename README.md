@@ -1,3 +1,5 @@
+> **This blog has moved to [ahammadnafiz.com/writing](https://ahammadnafiz.com/writing/).** GitHub Pages now serves only the `redirect/` folder, which forwards every old post link to its new address. The Jekyll source below is kept as an archive.
+
 # Chirpy Starter
 
 [![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
